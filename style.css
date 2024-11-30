@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+  --orange:#ffa500;
+}
+
+body {
+  background-image: url("7.jpeg");
+  background-color: #d4d3d3;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none; border:none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+*::selection{
+  background:var(--orange);
+  color:#fff;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+
+header{
+  font-size: 35px;
+  position: fixed;
+  top:0; left: 0; right:0;
+  background:rgb(3, 8, 32);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.5rem 0.5%;
+}
+
+header h3{
+  margin-left: 37%;
+  font-size: 5.5rem;
+  font-weight: bolder;
+  color:rgb(213, 150, 83);
+}
+
+#menu-bar{
+  color: #fff;
+  border: 1rem solid #fff;
+  border-radius: 0.5rem;
+  font-size: 3rem;
+  padding: 5rem 1.2 rem;
+  cursor: pointer;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  position: relative;
+  z-index: 0;
+}
+
+.home .content {
+  text-align: center;
+}
+
+.home .content h3 {
+  font-size: 4.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.home .content p {
+  font-size: 2.5rem;
+  color: #fff;
+  padding: .5rem 0;
+}
+
+.heading{
+  text-align: center;
+  padding: 2.5rem 0;
+  margin-top: 8%;
+}
+
+.heading span{
+  font-size: 3.5rem;
+  background: rgba(42, 154, 202, 0.2);
+  color: var(--blue);
+  border-radius: .5rem;
+  padding: .2rem 1 rem;
+}
+
+.heading span.space{
+  background: none;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 35%;
+  background: var(--orange);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border: 0.5rem solid var(--orange);
+  cursor: pointer;
+}
+
+.btn1{
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 25%;
+  background: var(--orange);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border: 0.5rem solid var(--orange);
+  cursor: pointer;
+}
+
+
+
+.btn:hover{
+  background:rgba(207, 216, 87, 0.859);
+  color:var(--black);
+}
+
+.booking .book-form .btn{
+  margin-top: 2rem;
+}
+
+.home .content p{
+  margin-bottom: 65px;
+}
+
+.home .content a{
+  background: #fff;
+  padding: 15px 35px;
+  color: #1680AC;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  padding: 1.1%;
+}
+
+.row .image{
+  flex:0.7 1 4rem;
+}
+
+.row .image img{
+  margin-top: 20%;
+  width: 80%;
+  height: 50%;
+  margin-right: 100%;
+}
+
+
+.row .image5{
+  flex:1 1 10rem;
+}
+
+.row .image5 img{
+  width: 170%;
+}
+
+
+.row .image6{
+  flex:1 1 10rem;
+}
+
+.row .image6 img{
+  width: 40%;
+}
+
+.row8{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  padding: 1.1%;
+}
+
+.row8 .image7{
+  flex:1 1 10rem;
+}
+
+.row8 .image7 img{
+  width: 30%;
+}
+
+.row form{
+  flex:1 1 100rem;
+  padding: 3rem;
+  box-shadow: 0 2rem 5rem rgb(206, 167, 28);
+  border-radius: .7rem;
+  margin-right: 10%;
+  margin-left: 0.5%;
+}
+
+.row form .inputBox{
+  padding: .4rem 0;
+}
+
+.row form .inputBox .select-option{
+  width:100%;
+  padding:1rem;
+  border: .17rem solid black;
+  font-size: 1.7rem;
+  color:#333;
+  text-transform: none;
+}
+
+.row form .inputBox input{
+  width:100%;
+  padding:1rem;
+  border: .17rem solid black;
+  font-size: 1.7rem;
+  color:#333;
+  text-transform: none;
+}
+
+.row form .inputBox h2{
+  font-size: 2rem;
+  padding:1rem 0;
+  color:#666;
+}
+
+
+.pass{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	align-items: center;
+	text-align: right;
+	color: black;
+}
+.pass input{
+	width: 25px;
+	padding: 5px;
+}
+.pass label{
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+
+
+.signin{
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+	color: black;
+}
+.signin a{
+	color: #591166;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+
+
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+
+
+
+
+.row1{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  align-items: center;
+}
+
+image1{
+  flex:1 100 100rem;
+}
+
+image1 img{
+  width: 50%;
+  height: 90%;
+}
+
+
+.container1{
+  width: 100%;
+  height: 100%;
+  background: #141a34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1 form{
+  width: 100%;
+  max-width: 900px;
+  padding: 50px 90px 90px;
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.row1 form{
+  flex:1 1 10rem;
+  padding: 7rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  border-radius: .5rem;
+}
+
+.row1 form .inputBox{
+  padding:.5rem 0;
+  width: 100%;
+  display: flex;
+  align-items: left;
+  margin: 2px 0;
+  position: relative;
+}
+
+.row1 form .inputBox input{
+  width:100%;
+  padding:1rem;
+  border:.1rem solid rgba(0,0,0,.1);
+  font-size: 1.7rem;
+  color:#333;
+  text-transform: none;
+
+}
+
+.inputBox label{
+  font-size: 15px;
+  flex-basis: 30%;
+  text-align: left;
+}
+
+.row1 form .inputBox h2{
+  font-size: 2rem;
+  padding:1rem 0;
+  color:#666;
+}
+
+.heading1{
+  text-align: center;
+  padding: 2.5rem 0;
+  margin-top: 5%;
+}
+
+.heading1 span{
+  font-size: 2.5rem;
+  background: rgb(238, 233, 165);
+  color: var(--white);
+  border-radius: 5rem;
+  padding: .2rem 5 rem;
+}
+
+.heading1 span.space{
+  background: none;
+}
+
+
+
+
+
+
+.container2{
+  position: center;
+  margin-top: 6%;
+  margin-left: 38%;
+  width: 400px;
+  background: rgb(75, 148, 181);
+  padding: 20px 30px;
+  border: 4px solid rgb(9, 97, 103);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container2 .post{
+  display: none;
+}
+.container2 .text{
+  font-size: 25px;
+  color: rgb(18, 18, 18);
+  font-weight: 500;
+}
+.container2 .edit{
+  position: top;
+  margin-top: 0;
+  margin-left: 110%;
+  right: 10px;
+  top: 5px;
+  font-size: 16px;
+  color: yellow;
+  font-weight: 500;
+  cursor: pointer;
+}
+.container2 .edit:hover{
+  text-decoration: underline;
+}
+.container2 .star-widget input{
+  display: none;
+}
+.star-widget label{
+  font-size: 40px;
+  color: rgb(68, 68, 68);
+  padding: 10px;
+  float: right;
+  transition: all 0.2s ease;
+}
+
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+  color: #fd4;
+}
+input:checked ~ label{
+  color: #fd4;
+}
+input#rate-5:checked ~ label{
+  color: #fe7;
+  text-shadow: 0 0 20px #952;
+}
+#rate-1:checked ~ form::before{
+  content: " Just hate it";
+  font-size: 26px;
+  color: #fe7;
+  margin-left: 33%;
+}
+#rate-2:checked ~ form::before{
+  content: " Not good ";
+  font-size: 26px;
+  color: #fe7;
+  margin-left: 33%;
+}
+#rate-3:checked ~ form::before{
+  content: " Just like it ";
+  font-size: 26px;
+  color: #fe7;
+  margin-left: 33%;
+}
+#rate-4:checked ~ form::before{
+  content: " It's awesome";
+  font-size: 26px;
+  color: #fe7;
+  margin-left: 33%;
+}
+#rate-5:checked ~ form::before{
+  content: " Just love it ";
+  font-size: 26px;
+  color: #fe7;
+  margin-left: 33%;
+}
+.container form{
+  display: none;
+}
+input:checked ~ form{
+  display: block;
+}
+form header{
+  width: 100%;
+  font-size: 25px;
+  color: #fe7;
+  font-weight: 500;
+  margin: 5px 0 20px 0;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+form .textarea{
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 10%;
+}
+form .textarea textarea{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #eee;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(46, 45, 45);;
+  padding: 10px;
+  font-size: 17px;
+  resize: none;
+}
+.textarea textarea:focus{
+  border-color: rgb(13, 176, 13);
+}
+form .btn1{
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+}
+form .btn1 button{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  background: rgb(218, 119, 33);
+  color: rgb(0, 0, 0);
+  border: 4px solid rgb(207, 113, 5);
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form .btn1 button:hover{
+  background: rgb(136, 62, 6);
+}
+
+.btn1{
+  display: inline-block;
+  margin-top: 20%;
+  margin-left: 35%;
+  padding: 1rem;
+  padding-left: 1rem;
+  border:var(--border);
+  border-radius: .9rem;
+  box-shadow: var(--box-shadow);
+  color:#19533d;
+  cursor: pointer;
+  font-size: 1.7rem;
+  background: #fff;
+}
+
+.heading5 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 4rem;
+  color: #10221b;
+}
+
+.container1 form{
+  width: 100%;
+  max-width: 900px;
+  padding: 50px 30px 20px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.fa-paper-plane{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  font-size: 26px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.input-group{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 7px 0;
+  position: relative;
+}
+
+image{
+  flex:1 10 200rem;
+  align-content: center;
+}
+
+image img{
+  width: 10%;
+  height: 10%;
+}
+
+.heading1{
+  text-align: center;
+  padding: 2.5rem 0;
+  margin-top: 10%;
+}
+
+.heading span1{
+  font-size: 2.5rem;
+  background: rgb(238, 233, 165);
+  color: var(--white);
+  border-radius: .5rem;
+  padding: .2rem 1 rem;
+}
+
+.heading1 span.space{
+  background: none;
+}
+
+
