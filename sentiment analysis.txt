@@ -1,0 +1,114 @@
+
+# Clustering: 
+* This is a type of unsupervised machine learning technique that groups similar data points together based on their features. 
+* In this project, we'll use clustering to group restaurants on Zomato based on various factors such as cuisine, price, location, and rating.
+
+# Sentiment analysis: 
+-> This is a type of natural language processing (NLP) technique that analyzes text data to determine the sentiment, or overall emotional tone, of the text. 
+-> 
+In this project, we will also use sentiment analysis to determine the sentiment of restaurant reviews on Zomato, which can give you insights into what customers like and dislike about different restaurants.
+
+By combining these two techniques, we can gain a deeper understanding of the Zomato data and extract valuable insights that can help inform restaurant owners and managers on how to improve their businesses. For example, we could find that restaurants in certain clusters tend to have more positive reviews than others, or that certain cuisines are particularly popular among customers. Overall, this clustering project can be a powerful tool for restaurant owners, managers, and other stakeholders in the city's food industry to make data-driven decisions and improve the quality of their services. By understanding the characteristics and preferences of different restaurant clusters, they can optimize their offerings, marketing strategies, and business operations to better serve their customers and stay ahead of the competition.
+
+
+
+## Sns.heatmap()
+is used to plot rectangular data in the form of a color-coded matrix. 
+A heat map is one of the data visualization tools that shows the magnitude of a certain phenomenon in the form of colors.
+
+It is defined as a graphical representation of data using colors to visualize the value of the matrix. In this, representation more common values or higher activities brighter colors basically reddish colors are used and to represent less common or activity values, darker colors are preferred. 
+
+
+
+
+## Visualizations
+**The cost column do not have norml distribution. So we need to change the distribution to normal. We can do this by using log transformation.
+
+--> Log transformation is a common technique used to reduce skewness in a distribution and make it more symmetric.
+Skewness is a statistical measure of asymmetric distribution of data
+
+
+
+
+## Word cloud
+Wordcloud is basically a visualization technique to represent the frequency of words in a text where the size of the word represents its frequency. 
+
+
+## data Wrangling
+Data Wrangling is the process of gathering, collecting, and transforming Raw data into another format for better understanding, decision-making, accessing, and analysis in less time. 
+
+
+## Feature Engineering
+Feature engineering involves imputing missing values, encoding categorical variables, transforming and discretizing numerical variables, removing or censoring outliers, and scaling features, among others.
+
+Feature engineering is the process that takes raw data and transforms it into features that can be used to create a predictive model using machine learning or statistical modeling, such as deep learning.
+
+
+
+
+## What is SweetViz?
+SweetViz is an open-source Python library, this is used for automated exploratory data analysis (EDA), it helps data analysts/scientists quickly generate beautiful & highly detailed visualizations.
+
+EDA is applied to investigate the data and summarize the key insights. It will give you the basic understanding of your data, it's distribution, null values and much more.
+
+
+
+
+## Hyperparameter tuning (or hyperparameter optimization) is the process of determining the right combination of hyperparameters that maximizes the model performance. It works by running multiple trials in a single training process.
+
+
+## ELI5 is a python library that gives the flexibility to debug and visualize different Machine Learning models using a single unified API. It provides in-built support for different Machine Learning frameworks and presents a unified way to explain black-box models.
+
+
+ELI5 allows to explain weights and predictions of scikit-learn linear classifiers and regressors, print decision trees as text or as SVG, show feature importances and explain predictions of decision trees and tree-based ensembles.
+
+
+
+## XGBoost is a robust machine-learning algorithm that can help you understand your data and make better decisions. XGBoost is an implementation of gradient-boosting decision trees. It has been used by data scientists and researchers worldwide to optimize their machine-learning models.
+
+
+##lmplot() method is used to plot data and draw regression model fits across grids where multiple plots can be plotted. 
+
+
+
+## Principal Component Analysis (PCA) is a linear dimensionality reduction technique that can be utilized for extracting information from a high-dimensional space by projecting it into a lower-dimensional sub-space.
+
+Principal Component Analysis is an unsupervised learning algorithm that is used for the dimensionality reduction in machine learning.
+
+
+
+=> Text Vectorization in TensorFlow
+allows model to process, analyze, & interpret unstructured text data.
+
+in this process we convert text into numerical vectors
+
+step of feature extraction, get some distinct features outof the text
+
+
+-> tokenization is process of splitting a stream of language into individual tokens.
+
+-> vectorization is process of converting string data into numerical representation.
+
+
+
+
+
+
+# Tech Stack
+
+-> word cloud
+-> stop words
+-> Data Wrangling
+-> Sweetviz
+-> ML Models - Naive Bayes & Random Forest
+-> Feature Extraction
+-> PCA
+
+
+
+
+
+
+
+
+
